@@ -26,3 +26,58 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.app-header{
+  margin: 20px 0;
+}
+.chat-window-container{
+  padding: 0 5px !important;
+}
+.chat-window{
+  border: 1px solid #CCC;
+  margin-bottom: 10px;
+}
+.pull-left{
+  display: inline-block;
+  float: left
+}
+.pull-right{
+  display: inline-block;
+}
+.chat-window-header{
+  text-align: right;
+}
+.chat-name{
+  line-height: 38px;
+}
+.chat-window-header{
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.chat-window-footer{
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+.row-no-margin{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.message-container{
+  padding: 5px;
+}
+.message{
+  padding: 5px;
+  border: 1px solid #DDD;
+    border-radius: 10px;
+}
+.right{
+  padding-right: 5px !important;
+}
+.left{
+  padding-left: 5px !important;
+}
+.right > .message{
+  text-align: right;
+}
+.left > .message{
+  text-align: left;
+}
