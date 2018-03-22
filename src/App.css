@@ -81,3 +81,9 @@
 .left > .message{
   text-align: left;
 }
+.message-header{
+  margin-bottom: 0px;
+}
+.message-body{
+  margin-bottom: 0px;
+}
